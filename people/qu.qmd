@@ -1,13 +1,9 @@
 ---
 title: "Yichun Qu"
 subtitle: "PhD student, started Fall 2026"
-image: photos/placeholder.svg
+image: photos/qu.jpg
 status: phd
 order: 2
 ---
 
-<!-- EXAMPLE: copy this file to add a Ph.D. student. Delete it when you have real members.
-     The first paragraph below is the bio shown on the People page; keep it to 2-4 sentences.
-     Anything after it (links, contact, more detail) appears only on this person's own page. -->
-
-<!-- Write one or two sentences about this person's research interests. -->
+Yichun Qu received her B.S. in Electronic and Information Engineering from Xidian University in 2024 and her M.S. in Electrical and Computer Engineering from Brown University in 2026. She is currently a first year Ph.D. student in Electrical and Computer Engineering at NC State University. Her research interests include nonlinear control, safety-critical control, and reinforcement learning.
