@@ -1,0 +1,9 @@
+---
+title: "Mohammad Mirtaba"
+subtitle: "PhD student, started Spring 2026"
+image: photos/mirtaba.png
+status: phd
+order: 1
+---
+
+Mohammad Mirtaba received his B.S. in Electrical Engineering from Shiraz University of Technology in 2020 and his M.S. in Mechanical Engineering from the University of Maryland, Baltimore County in 2025. He is currently a first-year Ph.D. student in Electrical and Computer Engineering at NC State University, with research interests in nonlinear and safety-critical control, particularly for aerial vehicles.

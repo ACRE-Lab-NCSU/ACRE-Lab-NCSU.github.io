@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "ACRE Lab"
+  description: "The Autonomy, Controls, and Robotics Engineering (ACRE) Lab at NC State University designs safe, reliable, and performant autonomous systems using tools from control theory."
+  favicon: assets/favicon.png
+  # After you pick a GitHub Pages address, uncomment and edit this:
+  # site-url: https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO
+
+  navbar:
+    logo: assets/logo/acre-mark.svg
+    logo-alt: "ACRE Lab wolf logo"
+    title: "ACRE Lab"
+    background: "#ffffff"
+    foreground: "#000000"
+    collapse-below: md
+    left:
+      - href: research.qmd
+        text: Research
+      - href: robots.qmd
+        text: Robots
+      - href: publications.qmd
+        text: Publications
+      - href: people.qmd
+        text: People
+      - href: teaching.qmd
+        text: Teaching
+      - href: news.qmd
+        text: News
+      - href: https://github.com/ACRE-Lab-NCSU
+        text: Code
+        target: _blank
+        rel: noopener
+      - href: join.qmd
+        text: Join us
+
+  page-footer:
+    background: "#000000"
+    foreground: "#cccccc"
+    border: false
+    left: |
+      Autonomy, Controls, and Robotics Engineering Lab  
+      NC State University, Raleigh, NC
+    right:
+      - icon: github
+        href: https://github.com/ACRE-Lab-NCSU
+        aria-label: GitHub
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=e_0yKw0AAAAJ&hl=en&authuser=1
+        aria-label: Google Scholar
+      - icon: envelope
+        href: mailto:mhcohen2@ncsu.edu
+        aria-label: Email
+
+format:
+  html:
+    theme: [default, theme.scss]
+    include-in-header: assets/head.html
+    toc: false
+    smooth-scroll: false
+    grid:
+      body-width: 780px
+      margin-width: 200px
+      sidebar-width: 250px
+      gutter-width: 2rem

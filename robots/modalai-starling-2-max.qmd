@@ -1,0 +1,13 @@
+---
+title: "ModalAI Starling 2 Max"
+description: "A GPS-denied development drone with an onboard computer and cameras, used for vision-based autonomous flight."
+image: photos/placeholder.svg
+order: 3
+---
+
+<!-- PHOTO: save a landscape photo (about 3:2) in robots/photos/, then change the `image:` line above,
+     for example:  image: photos/starling-2-max.jpg  -->
+
+## Overview
+
+The Starling 2 Max is a quadrotor with a powerful onboard computer, a PX4 flight controller, and a set of cameras built for navigating without GPS using visual-inertial odometry. Its long flight time and 500 g payload capacity make it well suited to experiments that run an autonomy stack entirely onboard.

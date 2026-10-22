@@ -1,0 +1,39 @@
+<!--
+  PLACEHOLDER (RESEARCH HIGHLIGHTS): edit this file to change the videos on the home page.
+
+  To add a highlight, copy one whole block from `::: {.highlight}` down to its closing `:::`
+  and paste it inside the outer `::: {.highlights}` block.
+
+  Embedding a video:
+    - YouTube or Vimeo: paste the link in the video line, e.g.
+        {{< video https://www.youtube.com/watch?v=YOUR_VIDEO_ID title="What the video shows" >}}
+      An "Unlisted" YouTube video works well: anyone with the link can watch it, but it does not
+      appear in YouTube search.
+    - A video file: put the .mp4 in assets/videos/ and use
+        {{< video assets/videos/my-video.mp4 title="What the video shows" >}}
+      Keep files under about 25 MB (GitHub rejects files over 100 MB). Longer videos belong on YouTube.
+
+  Always give the video a `title`; screen readers use it.
+  The gray boxes below are placeholders. Replace each `<div class="video-placeholder">` line
+  with a video line like the ones above.
+-->
+
+::: {.highlights}
+
+::: {.highlight}
+{{< video https://youtu.be/Fn9biWWtrd8 title="Vector field following" >}}
+
+### Safe Vector Field Following on Quadrotors
+
+Embedding safe low-dimensional vector fields into complex dynamics using geometric control methods. [Read the paper](https://arxiv.org/pdf/2610.06629).
+:::
+
+::: {.highlight}
+{{< video assets/videos/predictive_cbfs.mp4 title="Predictive CBFs" >}}
+
+### Learning for Layered Safety-Critical Control
+
+Learning to safely control a 3D hopping robot using predictive forward simulation and control barrier functions. [Read the paper](https://proceedings.mlr.press/v283/compton25a.html)
+:::
+
+:::

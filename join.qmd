@@ -1,0 +1,46 @@
+---
+title: "Join us"
+description: "We are always interested in motivated students and collaborators."
+---
+
+## Prospective PhD students
+
+The ACRE Lab is always looking for outstanding Ph.D. students to contribute to our research objectives. There are four main qualities/skills that we believe are important to doing good research in the lab. We don't expect incoming Ph.D. students to have all of these qualities from the start, but strong candidates for the lab will have some of these skills and work to develop the others throughout their Ph.D.
+
+1. *Mathematical Foundations*: Everything we do starts with a solid understanding of mathematics. This includes linear algebra, calculus, differential equations, probability, and optimization. As you progress in your research, you will need to build on this foundation and learn more advanced topics as needed, but this foundation is needed to understand
+and develop new algorithms.
+
+2. *Programming Skills*: Most of our research involves implementing algorithms in code, running simulations, and analyzing data. Strong programming skills are essential. I expect you to be proficient in at least one programming language (e.g., Python, C++, MATLAB) and to be comfortable working with software tools commonly used in robotics and controls (e.g., ROS). This will help you quickly prototype and test your ideas, allowing you to iterate rapidly and make progress on your research.
+
+3. *Hardware Familiarity*: While the research in the lab is often focused on algorithms and theory, we also work with physical robotic systems. Therefore, we expect you to have a basic understanding of how hardware works, and how to deploy code on the various robots in the lab (e.g., drones, legged robots). You don’t need to be an expert in hardware design, but you should be comfortable working with the robots and troubleshooting issues that may arise during experiments. Importantly, understanding the limitations and capabilities of hardware is crucial for developing algorithms that work in the real world – this creates a feedback loop that allows us to develop better algorithms informed by practical considerations.
+
+4. *Effective Communication*: Research is not just about developing new ideas; it is also about effectively communicating those ideas to others. A great research idea that cannot be communicated effectively is unlikely to have an impact. Therefore, we expect you to develop strong communication skills, both written and verbal. This includes, but is not limited to, writing
+clear and concise research papers and giving effective presentations.
+
+If you feel that you meet most of the above criteria and are interested in potential opportunities, please feel free to reach out to us via email with the subject line "Prospective PhD Student" and include:
+
+- Resume/CV;
+- A short paragraph detailing your research interests and what aspects of my research you are interested in;
+- Optional: A short paragraph detailing your background and experience in robotics, control systems, and/or machine learning. If applicable, please include your background and experience with Python, Julia, MATLAB, C/C++, ROS, and/or working with hardware. Please note that prior experience in these areas is not strictly necessary, but any experience you do have would be helpful for better understanding your background and skills.
+- Optional: Any supporting materials (e.g., publications, project portfolios, GitHub repos) that highlight your background and skill set.
+
+**Please note that open Ph.D. positions are subject to funding availability. Some years we may be able to take multiple Ph.D. students while other years we may unfortunately not have any open slots.**  
+
+## Undergraduate and Master's Students
+
+We are also always looking for excellent undergraduate and master's students at NC State to contribute to research projects in the lab. If you are interested in getting involved in research related to controls, robotics, and autonomous systems, please feel free reach out to us via email with the subject line "Prospective Undergraduate Researcher" or "Prospective Graduate Researcher" and include:
+
+- Resume/CV;
+- Your current year at NC State;
+- A short paragraph detailing why you are interested in robotics, controls, and/or autonomous systems;
+- Optional: A short paragraph detailing your background and experience in robotics, control systems, and/or machine learning. Please note that prior experience in these areas is not strictly necessary, but any experience you do have would be helpful for better understanding your background and skills.
+- Optional: A short paragraph detailing your background and experience with Python, Julia, MATLAB, C/C++, ROS, and/or working with hardware. Please note that prior experience in these areas is not strictly necessary, but any experience you do have would be helpful for better understanding your background and skills.
+- Optional: Any supporting materials (e.g., publications, project portfolios, GitHub repos) that highlight your background and skill set. 
+
+## Postdocs
+
+We are not currently looking for any postdocs to join the lab.
+
+## Contact
+
+To inquire about joining the lab please free to shoot us an email at [mhcohen2@ncsu.edu](mailto:mhcohen2@ncsu.edu). Given the high volume of emails sent to this inbox, we cannot guarantee a response to every inquiry. If you don't get a response after a couple of weeks please feel free to send a follow-up email.

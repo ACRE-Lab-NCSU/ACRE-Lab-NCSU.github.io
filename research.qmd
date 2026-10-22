@@ -1,0 +1,32 @@
+---
+title: "Research"
+description: "Control theory for safe, reliable, and performant autonomous systems."
+---
+
+The ACRE Lab uses tools from control theory to design autonomous systems that are safe, reliable, and performant. Our work spans foundational theory, algorithm development, and experimental evaluation on robotic platforms. You can check out the video below for a high-level introduction to research performed in the ACRE Lab.
+
+{{< video https://www.youtube.com/watch?v=_SoKKrkUUF4 title="Research overview" >}}
+
+Our research is organized into a few complementary themes. An overview of each our research themes is provided below. You can check out our [publications](publications.qmd) for more details.
+
+::: {.theme-block}
+## Constructive safety-critical control
+We use tools from nonlinear control theory to systematically construct safety-critical controllers for a broad range of autonomous systems.
+:::
+
+::: {.theme-block}
+## Model reduction for scalable control synthesis
+We design controllers based on reduced-order representations of complex dynamical systems while preserving essential properties of the full-order dynamics, such as stability and safety.
+:::
+
+::: {.theme-block}
+## Layered and hierarchical control architectures
+
+The autonomy stack of modern autonomous systems consists of a complex interconnection of control, planning, and perception layers, each of which may operate at different rates leverage varying system representations. In this setting, we analyze how to design these layered architectures such that control-theoretic properties, such as stability or safety, carry through each layer, ensuring such properties hold at the system level
+:::
+
+::: {.theme-block}
+## Assured adaptation and real-time learning
+
+We design controllers that learn in real-time from interactions with the environment while preserving properties such as safety.
+:::

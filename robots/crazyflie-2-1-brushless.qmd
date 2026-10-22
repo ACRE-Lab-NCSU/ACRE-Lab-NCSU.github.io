@@ -1,0 +1,13 @@
+---
+title: "Bitcraze Crazyflie 2.1 Brushless"
+description: "A 32-gram open-source quadrotor for indoor flight experiments, from single-drone control to multi-drone swarms."
+image: photos/placeholder.svg
+order: 4
+---
+
+<!-- PHOTO: save a landscape photo (about 3:2) in robots/photos/, then change the `image:` line above,
+     for example:  image: photos/crazyflie.jpg  -->
+
+## Overview
+
+The Crazyflie is a palm-sized, open-source quadrotor. The brushless version adds agility and payload capacity over earlier models. It is small and safe enough to fly indoors around people, and several can fly at once, which makes it a good testbed for control and multi-robot experiments.

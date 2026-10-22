@@ -1,0 +1,7 @@
+---
+title: "ACRE Lab's first official paper is accepted"
+date: 2026-07-15
+description: "Our first official paper is accepted to the IEEE Conference on Decision and Control."
+---
+
+Our paper on safe adaptive control of robotic systems, led by Mohammad, has been accepted for publication at the 2026 IEEE Conference on Decision and Control. [Check out the paper](https://arxiv.org/abs/2604.14308) for more details.

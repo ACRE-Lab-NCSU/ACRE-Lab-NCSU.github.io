@@ -1,0 +1,7 @@
+---
+title: "Max gives a talk at the Technical University of Munich"
+date: 2026-10-12
+description: "Max gives a talk at workshop hosted at TUM."
+---
+
+Max gives a presentation as part of a workshop on Sustainable Cyber-Physical Systems hosted by the Institute for Advanced Studies at the Technical University of Munich.

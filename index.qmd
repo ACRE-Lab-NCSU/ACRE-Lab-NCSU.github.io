@@ -1,0 +1,98 @@
+---
+pagetitle: "Autonomy, Controls, and Robotics Engineering"
+page-layout: custom
+title-block-style: none
+listing:
+  - id: home-news
+    contents: news/posts
+    type: table
+    fields: [date, title]
+    sort: "date desc"
+    max-items: 5
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    date-format: "MMM D, YYYY"
+bibliography: publications.bib
+csl: ieee-newest-first.csl
+nocite: |
+  @*
+filters:
+  - assets/group-by-year.lua
+recent-publications: 5
+---
+
+<div class="hero">
+<div class="hero-inner">
+<div class="hero-text">
+
+# Control theory for safe, reliable, and performant autonomous systems.
+
+<p class="lede">The Autonomy, Controls, and Robotics Engineering (ACRE) Lab at NC State University.</p>
+
+<div class="hero-links">
+<a class="primary" href="research.qmd">Explore our research</a>
+<a href="people.qmd">Meet our people</a>
+</div>
+
+</div>
+<div class="hero-mark">
+<img src="assets/logo/acre-mark-white.svg" alt="ACRE Lab wolf logo" width="457" height="564">
+</div>
+</div>
+</div>
+
+<!-- PLACEHOLDER: edit the summary below to match the lab's current research. -->
+
+::: {.home-section}
+::: {.home-split}
+
+## What we do
+
+::: {.pillars}
+The Autonomy, Controls, and Robotics Engineering (ACRE) Lab is a research lab in the [Department of Electrical and Computer Engineering at NC State University](https://ece.ncsu.edu).
+We use tools from control theory to build trustworthy autonomous systems. Our vision is to design algorithms for autonomous systems with goal of ensuring that such systems are:
+
+**Safe.** Formally ensure that autonomous systems operate within strict user-defined limits, backed by rigorous mathematical guarantees.
+
+**Reliable.** Behave as expected even in the presence of disturbances, model errors, and other sources of uncertainty.
+
+**Performant.** Autonomous systems that are not just safe but that are also highly dynamic and efficient, capable of completing complex tasks.
+
+[Read more about our research](research.qmd)
+:::
+
+:::
+:::
+
+::: {.home-section}
+::: {.home-split}
+
+## News
+
+::: {#home-news}
+:::
+
+:::
+:::
+
+::: {.home-section}
+::: {.home-split}
+
+## Recent publications
+
+::: {.recent-pubs}
+::: {#refs}
+:::
+
+[All publications](publications.qmd)
+:::
+
+:::
+:::
+
+::: {.home-section}
+## Research highlights
+
+{{< include _research-highlights.qmd >}}
+:::

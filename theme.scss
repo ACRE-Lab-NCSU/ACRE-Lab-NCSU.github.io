@@ -1,0 +1,423 @@
+/*-- scss:defaults --*/
+
+// NC State brand palette
+// https://brand.ncsu.edu/designing-for-nc-state/color/
+$wolfpack-red:   #cc0000;
+$reynolds-red:   #990000;
+$deep-red:       #7e0000;
+$wolfpack-black: #000000;
+$ink:            #333333;  // approved Wolfpack Black shade, used for body text
+$slate:          #4d4d4d;
+$rule:           #cccccc;
+$mist:           #f2f2f2;
+
+$body-bg:        #ffffff;
+$body-color:     $ink;
+$primary:        $wolfpack-red;
+$link-color:     $wolfpack-red;
+$link-hover-color: $deep-red;
+$link-decoration: underline;
+
+$font-family-sans-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-family-heading: "Barlow Semi Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: $font-family-heading;
+$headings-color: $wolfpack-black;
+$headings-font-weight: 600;
+$font-size-root: 17px;
+$line-height-base: 1.65;
+
+$navbar-bg: #ffffff;
+$navbar-fg: $wolfpack-black;
+$navbar-hl: $wolfpack-red;
+
+$footer-bg: $wolfpack-black;
+$footer-fg: $rule;
+
+/*-- scss:rules --*/
+
+// ---------- Type ----------
+body {
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+  font-family: $font-family-heading;
+  letter-spacing: -0.005em;
+  line-height: 1.12;
+}
+
+h1.title {
+  font-size: clamp(2.4rem, 5vw, 3.4rem);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+h2 {
+  font-size: 1.85rem;
+  margin-top: 2.6rem;
+  border-bottom: none;
+}
+
+h3 {
+  font-size: 1.35rem;
+  margin-top: 2rem;
+}
+
+.quarto-title-block .subtitle,
+.quarto-title .description {
+  font-family: $font-family-heading;
+  color: $slate;
+  font-size: 1.25rem;
+}
+
+p, li { max-width: 68ch; }
+
+// Videos in page content line up with the text column (home-page highlights override this)
+.quarto-video { max-width: 68ch; }
+
+a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 3px solid $wolfpack-black;
+  outline-offset: 3px;
+}
+
+// ---------- Navbar ----------
+.navbar {
+  border-bottom: 1px solid $rule;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+.navbar-brand-container .navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.navbar-logo { max-height: 38px; }
+
+.navbar-title {
+  font-family: $font-family-heading;
+  font-weight: 700;
+  font-size: 1.45rem;
+  letter-spacing: 0.01em;
+  color: $wolfpack-black;
+}
+
+.navbar .nav-link {
+  font-family: $font-family-heading;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: $wolfpack-black;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 0.35rem;
+}
+
+.navbar .nav-link:hover { color: $wolfpack-red; }
+
+.navbar .nav-link.active {
+  color: $wolfpack-red;
+  border-bottom-color: $wolfpack-red;
+}
+
+// ---------- Home: hero ----------
+.hero {
+  background: $wolfpack-red;
+  color: #ffffff;
+}
+
+.hero-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6.5rem) 1.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: center;
+}
+
+.hero h1 {
+  font-family: $font-family-heading;
+  font-weight: 700;
+  font-size: clamp(2.5rem, 5.6vw, 4.4rem);
+  line-height: 1.02;
+  letter-spacing: -0.012em;
+  color: #ffffff;
+  margin: 0 0 1.4rem;
+}
+
+.hero .lede {
+  font-size: 1.2rem;
+  line-height: 1.55;
+  max-width: 34rem;
+  margin: 0 0 2.2rem;
+  color: #ffffff;
+}
+
+// Markdown wraps the links in a <p>, so the flex layout goes on that paragraph.
+.hero-links p { display: flex; flex-wrap: wrap; gap: 0.9rem; margin: 0; }
+
+.hero-links a {
+  font-family: $font-family-heading;
+  font-weight: 600;
+  font-size: 1.15rem;
+  text-decoration: none;
+  padding: 0.6rem 1.35rem;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.hero-links a.primary { background: #ffffff; color: $wolfpack-red; }
+.hero-links a:hover { background: $wolfpack-black; border-color: $wolfpack-black; color: #ffffff; }
+
+.hero-mark { display: flex; justify-content: center; }
+.hero-mark img { width: min(100%, 330px); height: auto; }
+
+@media (max-width: 767px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-mark { order: -1; justify-content: flex-start; }
+  .hero-mark img { width: 120px; }
+}
+
+// ---------- Home: sections ----------
+.home-section {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 0;
+}
+
+// Quarto sets `#quarto-content > * { padding-top: 14px }`, which outranks the rule above.
+#quarto-content > .home-section { padding-top: 4rem; }
+
+// A section that starts with a heading renders as <section>, others as <div>,
+// so `:last-of-type` is unreliable here. Match the last .home-section of any type.
+.home-section:not(:has(~ .home-section)) { padding-bottom: 5rem; }
+
+.home-section > h2,
+.home-split > h2 { margin-top: 0; }
+
+.pillars { margin-top: 0; }
+
+.pillars p { margin-bottom: 1.1rem; }
+
+.pillars strong {
+  font-family: $font-family-heading;
+  font-size: 1.2rem;
+  color: $wolfpack-black;
+}
+
+.home-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.9fr);
+  gap: clamp(1.5rem, 5vw, 4rem);
+}
+
+@media (max-width: 767px) {
+  .home-split { grid-template-columns: 1fr; gap: 0.5rem; }
+}
+
+// ---------- Listings (news, people, home news) ----------
+.quarto-listing .listing-title,
+.quarto-listing-default .listing-title {
+  font-family: $font-family-heading;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.quarto-listing .listing-title a,
+.quarto-listing-default .listing-title a {
+  color: $wolfpack-black;
+  text-decoration: none;
+}
+
+.quarto-listing .listing-title a:hover { color: $wolfpack-red; text-decoration: underline; }
+
+.quarto-listing-default .list.quarto-listing-default .listing-description,
+.listing-description { color: $slate; font-size: 1rem; }
+
+.quarto-listing .listing-date,
+.quarto-listing .listing-description { color: $slate; }
+
+.quarto-listing-default .quarto-post {
+  border-bottom: 1px solid $rule;
+  padding-bottom: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.quarto-listing-default .quarto-post:last-child { border-bottom: none; }
+
+// People: portrait + name, kept quiet. Matches every people listing
+// (#listing-people-pi, -phd, -undergrad-masters, -alumni). The `div.quarto-post`
+// part is needed to outrank Quarto's own `div.quarto-post .thumbnail` rules.
+[id^="listing-people-"] div.quarto-post .thumbnail { flex: 0 0 150px; }
+
+[id^="listing-people-"] div.quarto-post .thumbnail img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  background: $mist;
+}
+
+#listing-people-alumni .thumbnail,
+#listing-people-alumni .thumbnail-image { width: 90px; height: 90px; flex-basis: 90px; }
+
+// Role (subtitle) and short bio (first paragraph of the person's file)
+[id^="listing-people-"] .listing-subtitle {
+  font-size: 1rem;
+  color: $slate;
+  margin-bottom: 0.5rem;
+}
+
+[id^="listing-people-"] .listing-subtitle a { color: inherit; text-decoration: none; }
+
+[id^="listing-people-"] .listing-description {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: $ink;
+}
+
+[id^="listing-people-"] .listing-description a { color: inherit; text-decoration: none; }
+
+// Let the bio use the full width (Quarto reserves an empty metadata column otherwise)
+[id^="listing-people-"] div.quarto-post .metadata { display: none; }
+[id^="listing-people-"] div.quarto-post .body { flex: 1 1 0; min-width: 0; }
+
+// On phones Quarto stacks the photo below the text; put it first instead
+@media (max-width: 767.98px) {
+  [id^="listing-people-"] div.quarto-post .thumbnail { order: 0; margin-bottom: 1rem; }
+}
+
+// Compact table listing on the home page
+.quarto-listing-table { font-size: 1rem; }
+.quarto-listing-table thead { display: none; }
+
+.quarto-listing-table td { border-color: $rule; padding: 0.7rem 0.5rem 0.7rem 0; }
+
+.quarto-listing-table td a {
+  font-family: $font-family-heading;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: $wolfpack-black;
+  text-decoration: none;
+}
+
+.quarto-listing-table td a:hover { color: $wolfpack-red; text-decoration: underline; }
+
+// Robots: larger landscape photos
+#listing-robots .thumbnail { flex: 0 0 300px; }
+
+#listing-robots .thumbnail-image {
+  width: 300px;
+  aspect-ratio: 3 / 2;
+  height: auto;
+  object-fit: cover;
+  background: $mist;
+}
+
+@media (max-width: 575px) {
+  #listing-robots .thumbnail { flex-basis: auto; width: 100%; }
+  #listing-robots .thumbnail-image { width: 100%; }
+}
+
+// ---------- Research highlights (home) ----------
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem 2.25rem;
+  margin-top: 1.75rem;
+}
+
+@media (max-width: 767px) {
+  .highlights { grid-template-columns: 1fr; }
+}
+
+.highlight h3 {
+  font-size: 1.4rem;
+  margin: 1rem 0 0.4rem;
+}
+
+.highlight p { margin-bottom: 0; }
+
+.highlight .quarto-video {
+  width: 100%;
+  max-width: none;
+  background: $wolfpack-black;
+}
+
+.video-placeholder {
+  aspect-ratio: 16 / 9;
+  display: grid;
+  place-items: center;
+  background: $mist;
+  color: $slate;
+  font-family: $font-family-heading;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+// ---------- Publications ----------
+#refs {
+  margin-top: 1rem;
+}
+
+// IEEE style: a "[n]" label column, with the reference text aligned beside it
+#refs .csl-entry {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0 0 1.1rem;
+  line-height: 1.55;
+}
+
+#refs .csl-left-margin { flex: 0 0 2.1rem; color: $slate; }
+#refs .csl-right-inline { flex: 1 1 0; min-width: 0; margin: 0; }
+
+// Year headings (wrapped in a <section> by Pandoc, so not a direct child of #refs)
+#refs h2 {
+  margin: 2.4rem 0 1rem;
+  padding-top: 0.4rem;
+  border-top: 3px solid $wolfpack-red;
+  display: inline-block;
+  padding-right: 3rem;
+}
+
+// Home page "Recent publications": the same list as above, without year headings
+.recent-pubs #refs { margin-top: 0; }
+
+// ---------- Teaching ----------
+// Each `::: {.course}` block starts with a heading, so Pandoc renders it as <section class="course">.
+.course {
+  margin-top: 2rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid $rule;
+}
+
+.course:first-of-type { border-top: none; padding-top: 0; }
+
+.course h2 { font-size: 1.5rem; margin: 0 0 0.35rem; }
+
+.course strong { font-family: $font-family-heading; font-weight: 600; color: $wolfpack-black; }
+
+// ---------- Research ----------
+.theme-block { margin-top: 2.4rem; }
+.theme-block h2 { margin-top: 0; }
+
+// ---------- Footer ----------
+.nav-footer {
+  padding: 2.2rem 1.5rem;
+  border-top: 4px solid $wolfpack-red;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.nav-footer a, .nav-footer .nav-link { color: #ffffff; }
+.nav-footer a:hover { color: #ffffff; text-decoration: underline; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; scroll-behavior: auto !important; }
+}

@@ -1,0 +1,13 @@
+---
+title: "Unitree Go2 quadruped"
+description: "A compact four-legged robot with onboard LiDAR and camera, used for research on legged locomotion and autonomous navigation."
+image: photos/placeholder.svg
+order: 1
+---
+
+<!-- PHOTO: save a landscape photo (about 3:2) in robots/photos/, then change the `image:` line above,
+     for example:  image: photos/unitree-go2.jpg  -->
+
+## Overview
+
+The Unitree Go2 is a quadruped robot about the size of a medium dog. It walks, trots, and climbs over modest obstacles, and it carries a spinning LiDAR and a wide-angle camera for mapping and obstacle avoidance. In the lab it provides a real legged platform for testing controllers and autonomy stacks.

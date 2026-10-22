@@ -1,0 +1,74 @@
+---
+title: "People"
+description: "The students, researchers, and collaborators of the ACRE Lab."
+listing:
+  - id: people-pi
+    contents: "people/*.qmd"
+    include:
+      status: pi
+    type: default
+    image-align: left
+    sort: "order"
+    fields: [image, title, subtitle, description]
+    max-description-length: 2000
+    categories: false
+    sort-ui: false
+    filter-ui: false
+  - id: people-phd
+    contents: "people/*.qmd"
+    include:
+      status: phd
+    type: default
+    image-align: left
+    sort: "order"
+    fields: [image, title, subtitle, description]
+    max-description-length: 2000
+    categories: false
+    sort-ui: false
+    filter-ui: false
+  - id: people-undergrad-masters
+    contents: "people/*.qmd"
+    include:
+      status: undergrad-masters
+    type: default
+    image-align: left
+    sort: "order"
+    fields: [image, title, subtitle, description]
+    max-description-length: 2000
+    categories: false
+    sort-ui: false
+    filter-ui: false
+  - id: people-alumni
+    contents: "people/*.qmd"
+    include:
+      status: alumni
+    type: default
+    image-align: left
+    sort: "order"
+    fields: [image, title, subtitle]
+    categories: false
+    sort-ui: false
+    filter-ui: false
+---
+
+<!-- Current members show the first paragraph of their file as a bio. Alumni show only their name and subtitle. -->
+
+## Principal Investigator
+
+::: {#people-pi}
+:::
+
+## Ph.D. Students
+
+::: {#people-phd}
+:::
+
+## Undergraduate and Master's Students
+
+::: {#people-undergrad-masters}
+:::
+
+## Alumni
+
+::: {#people-alumni}
+:::

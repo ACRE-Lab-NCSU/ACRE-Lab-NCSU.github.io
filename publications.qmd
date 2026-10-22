@@ -1,0 +1,15 @@
+---
+title: "Publications"
+description: "Papers from the ACRE Lab, newest first. Our [Google Scholar](https://scholar.google.com/citations?user=e_0yKw0AAAAJ&hl=en&authuser=1) is probably more up-to-date."
+bibliography: publications.bib
+csl: ieee-newest-first.csl
+nocite: |
+  @*
+filters:
+  - assets/group-by-year.lua
+---
+
+<!-- To add a paper, paste its BibTeX entry into publications.bib. Nothing on this page needs editing. -->
+
+::: {#refs}
+:::

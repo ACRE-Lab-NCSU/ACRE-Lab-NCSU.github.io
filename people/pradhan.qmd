@@ -1,0 +1,13 @@
+---
+title: "Akshay Pradhan"
+subtitle: "Graduate researcher, Computer Engineering"
+image: photos/placeholder.svg
+status: undergrad-masters
+order: 1
+---
+
+<!-- EXAMPLE: copy this file to add an undergraduate or master's student. Delete it when you have real members.
+     The first paragraph below is the bio shown on the People page; keep it to 2-4 sentences.
+     Anything after it (links, contact, more detail) appears only on this person's own page. -->
+
+<!-- Write one or two sentences about this person's research interests. -->

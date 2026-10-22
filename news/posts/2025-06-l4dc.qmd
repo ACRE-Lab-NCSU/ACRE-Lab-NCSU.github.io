@@ -1,0 +1,7 @@
+---
+title: "Max wins best paper award L4DC 2025"
+date: 2025-06-01
+description: "Max and collaborators Will Compton and Aaron Ames receive best paper award."
+---
+
+Our paper on learning for layered safety-critical control architectures, led by Will Compton, was awarded the best paper award the 2025 Conference on Learning for Dynamics and Control. [Check out the paper](https://proceedings.mlr.press/v283/compton25a.html) for more details.

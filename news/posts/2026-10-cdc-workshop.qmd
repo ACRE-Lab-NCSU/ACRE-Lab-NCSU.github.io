@@ -1,0 +1,7 @@
+---
+title: "CDC Workshop on Safety Analysis for Autonomous Systems"
+date: 2026-10-22
+description: "ACRE Lab co-organizing a workshop at CDC 2026 on Safety Analysis for Autonomous Systems."
+---
+
+The ACRE Lab is helping to organize a workshop at the 2026 IEEE Conference on Decision and Control on "Safety Analysis for Autonomous Systems: Practical Perspectives and Recent Advances." More details can be found on the [accompanying website](https://haowwang.github.io/cdc26_safety_workshop/).

@@ -1,0 +1,7 @@
+---
+title: "ACRE Lab Founded"
+date: 2025-08-16
+description: "Max joins the ECE Department at NC State and founds the ACRE Lab."
+---
+
+The Autonomy, Controls, and Robotics Engineering Lab begins, although Max procrastinates and doesn't make this website until much later!

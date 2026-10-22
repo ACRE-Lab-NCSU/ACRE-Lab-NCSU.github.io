@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Robot photo placeholder">
+  <rect width="600" height="400" fill="#f2f2f2"/>
+  <g fill="none" stroke="#b2b2b2" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="215" y="150" width="170" height="110" rx="14"/>
+    <circle cx="255" cy="205" r="16"/><circle cx="345" cy="205" r="16"/>
+    <path d="M300 150v-34"/><circle cx="300" cy="104" r="12"/>
+    <path d="M215 285h170" />
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+---
+title: "Rethink Robotics Sawyer"
+description: "A seven-joint collaborative robot arm with force sensing in every joint, used for manipulation and human-robot interaction research."
+image: photos/placeholder.svg
+order: 2
+---
+
+<!-- PHOTO: save a landscape photo (about 3:2) in robots/photos/, then change the `image:` line above,
+     for example:  image: photos/sawyer.jpg  -->
+
+## Overview
+
+Sawyer is a single-arm collaborative robot designed to work safely alongside people. Each joint senses force, so the arm can feel contact and move compliantly, and it has cameras in its head and wrist. In the lab it serves as a manipulation platform for testing controllers that must remain safe around people and objects.
+

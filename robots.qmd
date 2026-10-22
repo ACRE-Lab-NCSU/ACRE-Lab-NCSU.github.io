@@ -1,0 +1,17 @@
+---
+title: "Robots and Lab Equipment"
+description: "The platforms we use to test our ideas on real hardware."
+listing:
+  id: robots
+  contents: "robots/*.qmd"
+  type: default
+  image-align: left
+  sort: "order"
+  fields: [image, title, description]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+---
+
+::: {#robots}
+:::

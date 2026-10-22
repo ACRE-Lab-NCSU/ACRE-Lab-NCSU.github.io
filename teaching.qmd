@@ -1,0 +1,26 @@
+---
+title: "Teaching"
+description: "Courses taught by members of the ACRE Lab at NC State."
+---
+
+::: {.course}
+## ECE 492/592: Algorithmic Foundations of Robotics
+
+**Offered:** Fall 2025, Spring 2027
+
+**Syllabus:** [PDF](assets/syllabi/ece-492-spring-2027.pdf)
+
+This course provides an introduction to the algorithmic foundations of robotics
+and autonomous systems. Topics addressed include robot dynamics, feedback control, motion planning, trajectory optimization, state estimation, localization, perception, and robot learning. The course will emphasize theoretical and algorithmic foundations of autonomy and strives for breadth over depth, providing students with a “system-level” understanding of the autonomy stack found in modern autonomous systems ranging from self-driving cars to humanoid robots. Prerequisites include a solid mathematical background in linear algebra, calculus, differential equations, and probability, as well as comfort using a programming language of choice. Previous exposure to control systems would be useful, but is not strictly necessary. Learning outcomes of the course material will be assessed through project-based assignments, which require implementation of algorithms on various robots in simulation.
+:::
+
+::: {.course}
+## ECE 792: Safety-Critical Control of Robotic Systems
+
+**Offered:** Fall 2026
+
+**Syllabus:** [PDF](assets/syllabi/ece-792-fall-2026.pdf)
+
+Tools from nonlinear dynamical systems and control provide an elegant framework
+for formally characterizing the properties of complex engineering systems. Intended for advanced graduate students, this course presents a modern take on the foundations of nonlinear control, focusing on concepts that have demonstrated practical success in controlling complex robotic systems. Topics addressed include foundations of nonlinear dynamics, reachability analysis, control Lyapunov functions, control barrier functions, safety filters, and optimization-based controllers. Emphasis will be placed on both the theoretical foundations of these techniques and their practical applications to robotic and autonomous systems, such as autonomous vehicles, aerial robots, robotic manipulators, and legged robots. While the topics covered are motivated by their application in robotics, the core concepts are broadly applicable to other engineering domains where nonlinear dynamics and feedback control are prevalent.
+:::

@@ -1,0 +1,7 @@
+---
+title: "Welcome to the new ACRE Lab website"
+date: 2026-10-08
+description: "The lab now has a home on the web. Check back for updates on our research, publications, and people."
+---
+
+The Autonomy, Controls, and Robotics Engineering Lab is online. Here we will share new papers, talks, awards, and openings in the lab.

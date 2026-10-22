@@ -1,0 +1,7 @@
+---
+title: "Max gives a talk at UNC, Chapel Hill"
+date: 2026-08-25
+description: "Max gives a talk at workshop hosted at UNC, Chapel Hill."
+---
+
+Max gives a presentation as part of a workshop on Beyond ML Inference Accuracy, hosted by the Department of Computer Science at the University of North Carolina, Chapel Hill.

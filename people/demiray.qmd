@@ -1,0 +1,9 @@
+---
+title: "Doruk Demiray"
+subtitle: "High School Student, Summer 2026"
+image: photos/placeholder.svg
+status: alumni
+order: 1
+---
+
+<!-- EXAMPLE: when someone graduates, change the "status" line (phd or undergrad-masters) to "status: alumni" and update the subtitle. -->
